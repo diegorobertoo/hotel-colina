@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Site do Hotel Fazenda Colina dos Sonhos">
+    <meta name="author" content="Diego Rosa">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <title> Pontos Turísticos - Hotel Fazenda Colina dos Sonhos </title>
+  </head>
+  <body>
+
+    <!-- ***** Carregamento Prévio ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Carregamento Prévio (Fim) ***** -->
+
+    <!-- Cabeçalho -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"> 
+            <h2> Hotel Fazenda <br><em>Colina dos Sonhos</em></h2>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" href="#modalReserva">Reservas
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#quartos">Quartos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Pontos Turísticos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Nossa História</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Conteúdo da Página -->
+
+    <!-- Título Início -->
+    <div class="page-heading tourist-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-content">
+              <h4>Venha conhecer os seguintes</h4>
+              <h2>Pontos Turísticos</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="pontos"></div>
+
+    <!-- Pontos Turísticos -->
+    <div class="places">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-12">
+            <div class="filters-content">
+                <div class="row grid">
+
+                    <div class="col-lg-4 col-md-4 all des">
+                      <div class="show-item">
+                        <a href="#pontos"><img src="assets/images/igreja.jpg" alt=""></a>
+                        <div class="down-content">
+                          <a href="#pontos"><h4>Igreja Matriz de São Pedro</h4></a>
+                          <p>A Igreja Matriz localiza-se no coração de São Pedro na Praça Gustavo Teixeira e é um dos pontos mais importantes da cidade. Construída em 1897, a Igreja Matriz foi o marco da evolução administrativa da cidade, reformada no final do séc. XX, somente a fachada foi conservada e das suas laterais saem duas alas de coqueiros centenários dando um charme ao local.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 all dev">
+                      <div class="show-item">
+                        <a href="#pontos"><img src="assets/images/parque.jpg" alt=""></a>
+                        <div class="down-content">
+                          <a href="#pontos"><h4>Parque Maria Angelica Manfrinato</h4></a>
+                          <p>O parque oferece uma agradável paisagem com seu lago, quiosques, parquinho para as crianças, bancos à beira das sombras das árvores e desfrutar também de passeio de pedalinho.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 all gra">
+                      <div class="show-item">
+                        <a href="#pontos"><img src="assets/images/museu.jpg" alt=""></a>
+                        <div class="down-content">
+                          <a href="#pontos"><h4>Museu Municipal "Gustavo Teixeira"</h4></a>
+                          <p>Inaugurado em 1972, o museu possui em seu acervo documentos e objetos que relatam a história da cidade, além da vida do poeta Gustavo Teixeira. Arte sacra, Tropeiros, Câmara Municipal são os principais temas das salas do museu. O museu abriga ainda no seu prédio oficinas, cursos, apresentações musicais, culturais e exposições.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Rodapé -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <a href="index.html">
+                <img src="assets/images/hotel-logo.png" alt="logo do hotel" width="10%" height="10%">
+              </a>
+              <p>Copyright &copy; 2022 Hotel Fazenda Colina dos Sonhos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Modal da RESERVA -->
+    <div class="modal fade" id="modalReserva" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Reserva de Quarto</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><h5>Selecione o período</h5>
+              Check-In: <input type="date" id="checkin"><br>
+              Check-Out: <input type="date" id="checkout">
+            </p><hr>
+            <p><h5>Quantidade de pessoas:</h6>
+              Quartos: <input type="number" min="0" value="0" name="" id=""><br>
+              Adultos: <input type="number" min="0" value="0" name="" id=""><br>
+              Crianças: <input type="number" min="0" value="0" name="" id=""><br>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary" onclick="alert('Em desenvolvimento...');">Ver ofertas</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Bootstrap / JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Outros Scripts -->
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
